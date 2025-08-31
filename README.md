@@ -57,3 +57,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# CRM
+CRM Project Cafe UMKM Menengah Kebawah f121b305c1e5d9f0ce82eae4cadb58f2b2abccff
