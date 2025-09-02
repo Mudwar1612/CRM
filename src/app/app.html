@@ -1,2 +1,7 @@
-<app-dashboard></app-dashboard>
-<router-outlet />
+<div>
+    <div [ngClass]="routeClass">
+        <div class="content">
+            <router-outlet />
+        </div>
+    </div>
+</div>
