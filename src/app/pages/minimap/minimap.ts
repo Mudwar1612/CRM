@@ -3,7 +3,7 @@ import { Header } from "../../components/templates/header/header";
 
 @Component({
   selector: 'app-minimap',
-  imports: [Header],
+  imports: [Header, ],
   templateUrl: './minimap.html',
   styleUrl: './minimap.css'
 })
