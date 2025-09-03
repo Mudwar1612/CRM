@@ -1,1 +1,16 @@
-<p>header works!</p>
+<header class="w-full">
+    <div class="flex justify-between items-center px-8 py-3">
+        <div class="text-3xl">
+            <span class="font-bold text-[#D2691E]">Trade</span>
+            <span class="italic">Mark</span>
+            <span class="text-[#D2691E]">.</span>
+        </div>
+
+        <nav class="flex gap-8 text-base">
+            <a routerLink="/Minimap" routerLinkActive="font-semibold" [routerLinkActiveOptions]="{ exact: true }" class="text-xl text-[#1a1a1a] hover:font-semibold hover:text-[#1a1a1a] min-w-[60px] text-center transition duration-300">Plan</a>
+            <a routerLink="/Menu" routerLinkActive="font-semibold" class="text-xl text-[#1a1a1a] hover:font-semibold hover:text-[#1a1a1a] min-w-[60px] text-center transition duration-300">Menu</a>
+            <a routerLink="/Feedback" routerLinkActive="font-semibold" class="text-xl text-[#1a1a1a] hover:font-semibold hover:text-[#1a1a1a] min-w-[100px] text-center transition-colors duration-300">Feedback</a>
+        </nav>
+    </div>
+    <hr class="border-t border-black">
+</header>

@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Header } from "../../components/templates/header/header";
 
 @Component({
-  selector: 'app-minimap',
+  selector: 'app-menu',
   imports: [Header],
-  templateUrl: './minimap.html',
-  styleUrl: './minimap.css'
+  templateUrl: './menu.html',
+  styleUrl: './menu.css'
 })
-export class Minimap {
+export class Menu {
 
 }
